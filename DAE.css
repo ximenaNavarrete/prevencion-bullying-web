@@ -1,36 +1,140 @@
-body { 
-    margin: 0; 
-    font-family: Arial, sans-serif; 
-    line-height: 1.6; 
-    color: #292929; 
-    background: #f7f4f8; 
-} 
-header { 
-    background: #75b7d1; 
-    color: white; 
-    text-align: center; 
-    padding: 28px 16px; 
-    border-radius: 20px; 
-    font-style:open;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf4fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #7db7d8;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+header h1 {
+    font-size: 30px;
+}
+header p {
+    font-size: 18px;
+}
 
-} 
-main { 
-    max-width: 850px; 
-    margin: 24px auto; 
-    padding: 0 16px; 
-} 
-section { 
-    background: white; 
-    padding: 18px; 
-margin-bottom: 18px; 
-border-radius: 10px; 
-border-color: #cbcecef6;
-} 
- 
-h2 { color: #62a2b3; } 
-a { color: #62a2b3; font-weight: bold; } 
-footer { 
-text-align: center; 
-padding: 18px; 
-background: #ece5ed; 
-} 
+header img {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.menu-nav {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.menu-nav li {
+    display: inline-block;
+    margin: 10px;
+}
+.menu-nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #397da5;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+.menu-nav a:hover {
+    background-color: #285b79;
+}
+main {
+    width: 85%;
+    margin: auto;
+}
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 10px;
+    border: 1px solid #c9dfeb;
+}
+h2, h3 {
+    color: #397da5;
+}
+
+h4 {
+    color: #4d91b5;
+}
+.definicion {
+    background-color: #d8edf8;
+    text-align: center;
+}
+.tiposb {
+    text-align: center;
+}
+
+.tiposb img {
+    border-radius: 8px;
+    margin: 15px;
+    border: 3px solid #d8edf8;
+}
+
+.tiposb dd {
+    margin: 10px;
+}
+.identifica {
+    background-color: #f5faff;
+}
+
+.identifica li {
+    margin: 12px;
+}
+section a {
+    color: #397da5;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #d47791;
+}
+.form1 {
+    background-color: white;
+    width: 75%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #b9d9eb;
+}
+
+.form1 p {
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.form1 input {
+    margin: 8px;
+}
+
+.form1 label {
+    color: #555;
+}
+
+.form1 button {
+    background-color: #397da5;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.form1 button:hover {
+    background-color: #285b79;
+}
+
+/* Pie de página */
+footer {
+    background-color: #397da5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

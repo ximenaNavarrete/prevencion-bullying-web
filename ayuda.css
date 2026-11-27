@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial;
+    background-color: #eaf4fa;
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-color: #7db7d8;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+.menu-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #397da5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-nav a:hover {
+    background-color: #285b79;
+}
+
+body > img {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h4 {
+    color: #397da5;
+}
+
+.form2 {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #b9d9eb;
+    border-radius: 8px;
+}
+
+.form2 label {
+    color: #397da5;
+}
+
+.form2 input {
+    width: 70%;
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #9bc5dc;
+    border-radius: 5px;
+}
+
+.form2 img {
+    margin: 10px;
+}
+
+.form2 textarea {
+    width: 70%;
+    height: 120px;
+    padding: 8px;
+    border: 1px solid #9bc5dc;
+    border-radius: 5px;
+}
+
+.form2 button {
+    background-color: #397da5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form2 button:hover {
+    background-color: #285b79;
+}
+
+footer {
+    background-color: #397da5;
+    color: white;
+    padding: 15px;
+    margin-top: 25px;
+}
